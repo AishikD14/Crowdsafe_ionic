@@ -7,9 +7,13 @@ const routes: Routes = [
   //   loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   // },
   { path: '', redirectTo: 'menu', pathMatch: 'full'},
-  { path: '', loadChildren: './pages/menu/menu.module#MenuPageModule'}
-
-
+  { path: '', loadChildren: './pages/menu/menu.module#MenuPageModule'},
+  { path: '/menu', redirectTo: 'menu', pathMatch: 'full'},
+  { path: '/menu/login', redirectTo: 'menu', pathMatch: 'full'},
+  { path: '/menu/register', redirectTo: 'menu', pathMatch: 'full'},
+  { path: '/menu/heatmap', redirectTo: 'menu', pathMatch: 'full'},
+  { path: '/menu/mainpage', redirectTo: 'menu', pathMatch: 'full'},
+  { path: '/menu/upload', redirectTo: 'menu', pathMatch: 'full'}
 
 ];
 @NgModule({

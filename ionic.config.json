@@ -1,0 +1,8 @@
+{
+  "name": "crowd-safe",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -13,7 +13,7 @@ import * as FusionCharts from 'fusioncharts';
 import { FusionChartsModule } from 'angular-fusioncharts';
 import * as FusionMaps from "fusionmaps/fusioncharts.maps";
 import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
-import * as India from 'fusioncharts/maps/fusioncharts.india';
+import * as India from '../../../../fusioncharts.india';
 
 FusionChartsModule.fcRoot(FusionCharts, FusionMaps, India, FusionTheme);
 
